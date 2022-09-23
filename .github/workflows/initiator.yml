@@ -17,3 +17,5 @@ jobs:
           echo $PR_REPO_NAME
           echo $PR_REPO_OWNER
           echo "Hello world"
+          echo $GITHUB_ENV
+          cat $GITHUB_ENV
